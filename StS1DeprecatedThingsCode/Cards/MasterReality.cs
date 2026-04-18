@@ -1,11 +1,9 @@
-using System.Collections.ObjectModel;
 using BaseLib.Abstracts;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using StS1DeprecatedThings.StS1DeprecatedThingsCode.Powers;
 
@@ -26,8 +24,8 @@ public class MasterReality() : CustomCardModel(1, CardType.Power, CardRarity.Rar
             cardSource.Owner.Creature, 
             cardSource.DynamicVars["MasterRealityPower"].BaseValue, 
             cardSource.Owner.Creature, 
-            (CardModel) cardSource);
+            cardSource);
     }
 
-    protected override void OnUpgrade() => this.EnergyCost.UpgradeBy(-1);
+    protected override void OnUpgrade() => EnergyCost.UpgradeBy(-1);
 }
