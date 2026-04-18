@@ -2,7 +2,7 @@ using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Modding;
 
-namespace StS1DeprecatedThings;
+namespace StS1DeprecatedThings.StS1DeprecatedThingsCode;
 
 //You're recommended but not required to keep all your code in this package and all your assets in the StS1DeprecatedThings folder.
 [ModInitializer(nameof(Initialize))]
