@@ -14,19 +14,9 @@ namespace StS1DeprecatedThings.StS1DeprecatedThingsCode.Cards;
 [Pool(typeof(ColorlessCardPool))]
 public class MasterReality() : CustomCardModel(1, CardType.Power, CardRarity.Rare, TargetType.Self)
 {
-    // public override string? CustomPortraitPath { get; } = "StS1DeprecatedThings/assets/portraits/masterReality.png";
+    public override string? CustomPortraitPath => "StS1DeprecatedThings/assets/CardPortraits/masterReality.png";
 
-    protected override IEnumerable<DynamicVar> CanonicalVars
-    {
-        get
-        {
-            return (IEnumerable<DynamicVar>) new ReadOnlyCollection<DynamicVar>
-            (new DynamicVar[1]
-            {
-                (DynamicVar) new PowerVar<MasterRealityPower>(1M)
-            });
-        }
-    }
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<MasterRealityPower>(1M)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
