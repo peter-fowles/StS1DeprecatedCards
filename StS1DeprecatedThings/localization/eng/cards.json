@@ -1,4 +1,6 @@
 {
   "STS1DEPRECATEDTHINGS-MASTER_REALITY.description": "Whenever a card is created during combat, [gold]Upgrade[/gold] it.",
-  "STS1DEPRECATEDTHINGS-MASTER_REALITY.title": "Master Reality"
+  "STS1DEPRECATEDTHINGS-MASTER_REALITY.title": "Master Reality",
+  "STS1DEPRECATEDTHINGS-REAPER.description": "Deal {Damage:diff()} damage. Heal HP equal to unblocked damage.",
+  "STS1DEPRECATEDTHINGS-REAPER.title": "Reaper"
 }
