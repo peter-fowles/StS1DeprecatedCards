@@ -2,5 +2,8 @@
   "STS1DEPRECATEDTHINGS-MASTER_REALITY.description": "Whenever a card is created during combat, [gold]Upgrade[/gold] it.",
   "STS1DEPRECATEDTHINGS-MASTER_REALITY.title": "Master Reality",
   "STS1DEPRECATEDTHINGS-REAPER.description": "Deal {Damage:diff()} damage. Heal HP equal to unblocked damage.",
-  "STS1DEPRECATEDTHINGS-REAPER.title": "Reaper"
+  "STS1DEPRECATEDTHINGS-REAPER.title": "Reaper",
+  "STS1DEPRECATEDTHINGS-EXHUME.description": "Put a card from your [gold]Exhaust[/gold] pile into your hand.",
+  "STS1DEPRECATEDTHINGS-EXHUME.title": "Exhume",
+  "STS1DEPRECATEDTHINGS-EXHUME.selectionScreenPrompt": "Choose a card to put back in your Hand."
 }
