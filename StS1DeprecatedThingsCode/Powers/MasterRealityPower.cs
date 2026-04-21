@@ -12,6 +12,7 @@ public sealed class MasterRealityPower : CustomPowerModel
     public override PowerStackType StackType => PowerStackType.None;
 
     public override string? CustomPackedIconPath => "StS1DeprecatedThings/assets/PowerIcons/Icon_MasterReality.png";
+    public override string? CustomBigIconPath => "StS1DeprecatedThings/assets/PowerIcons/Icon_MasterReality.png";
 
     public override async Task AfterCardGeneratedForCombat(CardModel card, bool addedByPlayer)
     {

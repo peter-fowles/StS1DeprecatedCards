@@ -8,5 +8,11 @@
   "STS1DEPRECATEDTHINGS-EXHUME.selectionScreenPrompt": "Choose a card to put back in your Hand.",
   "STS1DEPRECATEDTHINGS-OMNISCIENCE.description": "Choose a card in your draw pile. Play the chosen card twice and [gold]exhaust[/gold] it.",
   "STS1DEPRECATEDTHINGS-OMNISCIENCE.title": "Omniscience",
-  "STS1DEPRECATEDTHINGS-OMNISCIENCE.selectionScreenPrompt": "Choose a card to play twice and [gold]Exhaust[/gold]."
+  "STS1DEPRECATEDTHINGS-OMNISCIENCE.selectionScreenPrompt": "Choose a card to play twice and [gold]Exhaust[/gold].",
+  "STS1DEPRECATEDTHINGS-ALPHA.description": "Shuffle a [gold]Beta[/gold] into your draw pile.",
+  "STS1DEPRECATEDTHINGS-ALPHA.title": "Alpha",
+  "STS1DEPRECATEDTHINGS-BETA.description": "Shuffle an [gold]Omega[/gold] into your draw pile.",
+  "STS1DEPRECATEDTHINGS-BETA.title": "Beta",
+  "STS1DEPRECATEDTHINGS-OMEGA.description": "At the end of your turn, deal {OmegaPower:diff()} damage to ALL enemies.",
+  "STS1DEPRECATEDTHINGS-OMEGA.title": "Omega"
 }

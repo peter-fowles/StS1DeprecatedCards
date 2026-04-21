@@ -1,5 +1,8 @@
 {
   "STS1DEPRECATEDTHINGS-MASTER_REALITY_POWER.description": "Whenever a card is created during combat, [gold]Upgrade[/gold] it.",
   "STS1DEPRECATEDTHINGS-MASTER_REALITY_POWER.smartDescription": "Whenever a card is created during combat, [gold]Upgrade[/gold] it.",
-  "STS1DEPRECATEDTHINGS-MASTER_REALITY_POWER.title": "Master Reality"
+  "STS1DEPRECATEDTHINGS-MASTER_REALITY_POWER.title": "Master Reality",
+  "STS1DEPRECATEDTHINGS-OMEGA_POWER.description": "At the end of your turn, deal {Amount} damage to ALL enemies.",
+  "STS1DEPRECATEDTHINGS-OMEGA_POWER.smartDescription": "At the end of your turn, deal {Amount} damage to ALL enemies.",
+  "STS1DEPRECATEDTHINGS-OMEGA_POWER.title": "Omega"
 }
