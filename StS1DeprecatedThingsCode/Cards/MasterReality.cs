@@ -3,6 +3,7 @@ using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using StS1DeprecatedThings.StS1DeprecatedThingsCode.Powers;
@@ -15,6 +16,7 @@ public class MasterReality() : CustomCardModel(1, CardType.Power, CardRarity.Rar
     public override string? CustomPortraitPath => "StS1DeprecatedThings/assets/CardPortraits/masterReality.png";
 
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<MasterRealityPower>(1M)];
+
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
